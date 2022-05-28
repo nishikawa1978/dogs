@@ -1,11 +1,10 @@
 public class Dog {
-    private int id;
+    private final int id;
     private String name;
     private int age;
     private String breed;
 
-    public Dog(){
-    }
+
 
     public Dog(int id, String name, int age, String breed){
         this.id = id;
@@ -14,9 +13,6 @@ public class Dog {
         this.breed = breed;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public int getId() {
         return id;
